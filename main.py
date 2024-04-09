@@ -87,9 +87,9 @@ def create_vpn(txt):
           '-Force ' \
           '-Name "Summit" ' \
           '-TunnelType L2tp ' \
-          '-ServerAddress 212.24.60.182 ' \
+          '-ServerAddress 127.0.0.1 ' \
           '-AuthenticationMethod MSChapv2 ' \
-          '-L2tpPsk "Htg3QFrDVIeiSNcI" ' \
+          '-L2tpPsk "SuperPa$$word" ' \
           '-EncryptionLevel Required ' \
           '-RememberCredential'
     txt.insert(INSERT, 'Создание ВПН с именем Summit\n')
